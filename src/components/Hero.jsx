@@ -13,7 +13,7 @@ const Hero = () => {
     </div>
     <div className='container max-h-xl mt-20'>
       
-      <img src={logo} className='h-[500px] rounded-3xl' alt='IDK'/>
+      <img src={logo} className='items-center lg:h-auto rounded-3xl' alt='IDK'/>
     </div>
 
     </div>
