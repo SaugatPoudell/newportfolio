@@ -36,11 +36,15 @@ const Tech = () => {
             initial="initial"
             animate="animate"
             className='text-orange-400 text-5xl'> <FaHtml5/></motion.p> 
-              <p className='text-blue-400 text-5xl'><FaCss3Alt/></p> 
-             <p className='text-green-400 text-5xl'> < TbBrandJavascript/></p> 
+              <motion.p variants={iconVarients(2)}
+            initial="initial"
+            animate="animate" className='text-blue-400 text-5xl'><FaCss3Alt/></motion.p> 
+             <motion.p className='text-green-400 text-5xl'> < TbBrandJavascript/></motion.p> 
              <p className='text-blue-800 text-5xl'>< SiFlutter/></p>
              <p className='text-blue-400 text-5xl'>< FaReact/> </p>
-              <p className='text-blue-400 text-5xl' >< SiAdobephotoshop /></p> 
+              <motion.p variants={iconVarients(2)}
+            initial="initial"
+            animate="animate"  className='text-blue-400 text-5xl' >< SiAdobephotoshop /></motion.p> 
               <p className='text-purple-400 text-5xl'>< SiAdobepremierepro/> </p>
 
               </motion.p>
