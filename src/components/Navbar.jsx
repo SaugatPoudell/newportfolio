@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaBeer } from "react-icons/fa";
 import { FaGithub,FaLinkedin,FaYoutube,FaFacebook} from "react-icons/fa";
 
 const Navbar = () => {
